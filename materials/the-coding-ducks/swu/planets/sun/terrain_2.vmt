@@ -1,0 +1,5 @@
+"UnLitGeneric"
+{	
+	"$basetexture" "the-coding-ducks/swu/planets/sun/terrain_2"
+	"$translucent" 1
+}

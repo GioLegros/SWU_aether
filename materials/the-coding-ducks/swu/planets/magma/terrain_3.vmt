@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{	
+	"$basetexture" "the-coding-ducks/swu/planets/magma/terrain_3"
+	"$translucent" 1
+}

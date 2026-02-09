@@ -1,0 +1,17 @@
+"UnLitGeneric"
+{
+	"$basetexture"			"the-coding-ducks/swu/screens/jump-screen"
+	"$surfaceprop"			"glass"
+   	"$selfillum"			"1"
+	"$model"			"1"
+	"%notooltexture"		"1"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "10"
+		}
+	}
+} 

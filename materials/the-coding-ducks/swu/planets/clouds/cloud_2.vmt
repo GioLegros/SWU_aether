@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "the-coding-ducks/swu/planets/clouds/cloud_2"
+	"$translucent" 1
+	"$alpha" 0.75
+}
