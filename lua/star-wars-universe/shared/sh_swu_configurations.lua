@@ -4,7 +4,7 @@ SWU.Configuration.ConVars = {
     ["swu_enable_planet_collision"] = CreateConVar("swu_enable_planet_collision", 1, FCVAR_ARCHIVE, "Enables or disables that a planet can get destroyed by flying into it", 0, 1),
     ["swu_hyperspace_speed_modifier"] = CreateConVar("swu_hyperspace_speed_modifier", 1, FCVAR_ARCHIVE, "The number the hyperspace speed should be multiplied with", 0, 10),
     ["swu_enable_deathstar"] = CreateConVar("swu_enable_deathstar", 0, FCVAR_ARCHIVE, "Should there be the death star in the galaxy", 0, 1),
-    ["swu_enable_changelog"] = CreateClientConVar("swu_enable_changelog", 1, true, false, "Should the changelog be shown to you", 0, 1),
+    ["swu_enable_changelog"] = CreateClientConVar("swu_enable_changelog", 0, true, false, "Should the changelog be shown to you", 0, 1),
     ["swu_enable_interaction"] = CreateClientConVar("swu_enable_interaction", 1, true, false, "Should keyboard interaction with console be activated", 0, 1),
     ["swu_external_hyperspace_speed_modifier"] = CreateConVar("swu_external_hyperspace_speed_modifier", 1, FCVAR_ARCHIVE, "The number the hyperspace speed should be multiplied with, used by external addons", 0, 10),
 }
