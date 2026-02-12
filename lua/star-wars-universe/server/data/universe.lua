@@ -3989,6 +3989,19 @@
       "terrain": "the-coding-ducks/swu/planets/moon/terrain_3",
       "weather": false,
       "type": "planet"
+    },
+    {
+      "id": "664",
+      "name": "Capza",
+      "pos": {
+        "__type": "Vector",
+        "x": -93.289,
+        "y": 514.028,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/forest/terrain_2",
+      "weather": true,
+      "type": "planet"
     }
   ],
   "-4:24": [
@@ -4148,6 +4161,19 @@
         "z": 0.0
       },
       "terrain": "the-coding-ducks/swu/planets/water/terrain_3",
+      "weather": true,
+      "type": "planet"
+    },
+    {
+      "id": "702",
+      "name": "Ompersan",
+      "pos": {
+        "__type": "Vector",
+        "x": -96.72,
+        "y": 475.037,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/desert/terrain_1",
       "weather": true,
       "type": "planet"
     }
@@ -12448,6 +12474,19 @@
       "terrain": "the-coding-ducks/swu/planets/desert/terrain_3",
       "weather": true,
       "type": "planet"
+    },
+    {
+      "id": "1800",
+      "name": "Qiilura",
+      "pos": {
+        "__type": "Vector",
+        "x": 1.287,
+        "y": 253.773,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/forest/terrain_1",
+      "weather": true,
+      "type": "planet"
     }
   ],
   "-25:5": [
@@ -12568,6 +12607,107 @@
       "model": "models/lordtrilobite/starwars/props/asteroid_cluster02_128.mdl",
       "name": "Asteroid Field Zerek",
       "baseScale": "1.5"
+    }
+  ],
+  "-1:12": [
+    {
+      "id": "17590",
+      "name": "Ord Tessebok",
+      "pos": {
+        "__type": "Vector",
+        "x": -9.196,
+        "y": 308.212,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/forest/terrain_1",
+      "weather": true,
+      "type": "planet"
+    },
+    {
+      "id": "1757",
+      "name": "Obredaan",
+      "pos": {
+        "__type": "Vector",
+        "x": -13.008,
+        "y": 320.959,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/desert/terrain_1",
+      "weather": true,
+      "type": "planet"
+    }
+  ],
+  "-1:13": [
+    {
+      "id": "1792",
+      "name": "Lonnaw",
+      "pos": {
+        "__type": "Vector",
+        "x": -20.036,
+        "y": 335.73,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/forest/terrain_2",
+      "weather": true,
+      "type": "planet"
+    }
+  ],
+  "-2:15": [
+    {
+      "id": "7040",
+      "name": "Wistril",
+      "pos": {
+        "__type": "Vector",
+        "x": -48.311,
+        "y": 382.442,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/ice/terrain_1",
+      "weather": true,
+      "type": "planet"
+    }
+  ],
+  "-3:15": [
+    {
+      "id": "7050",
+      "name": "JanFathal",
+      "pos": {
+        "__type": "Vector",
+        "x": -54.24,
+        "y": 389.219,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/forest/terrain_3",
+      "weather": true,
+      "type": "planet"
+    }
+  ],
+  "-4:21": [
+    {
+      "id": "6750",
+      "name": "Endoraan",
+      "pos": {
+        "__type": "Vector",
+        "x": -89.341,
+        "y": 535.853,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/forest/terrain_1",
+      "weather": true,
+      "type": "planet"
+    },
+    {
+      "id": "674",
+      "name": "Bisellia",
+      "pos": {
+        "__type": "Vector",
+        "x": -86.801,
+        "y": 543.897,
+        "z": 0.0
+      },
+      "terrain": "the-coding-ducks/swu/planets/city/terrain_1",
+      "weather": true,
+      "type": "planet"
     }
   ]
 }

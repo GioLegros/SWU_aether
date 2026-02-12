@@ -71,12 +71,44 @@ function SWU:RemoveChunk(chunk)
     end
 end
 
+-- function SWU:LoadUniverse()
+--     self.Universe = {}
+
+--     local universe = util.JSONToTable(file.Read("star-wars-universe/server/data/universe.lua", "LUA") or "{}")
+
+--     self.Universe = table.DeSanitise(universe)
+-- end
+
 function SWU:LoadUniverse()
     self.Universe = {}
+    local jsonContent = file.Read("star-wars-universe/server/data/universe.lua", "LUA") or "{}"
+    SWU.RawUniverseJSON = jsonContent 
+    local universe = util.JSONToTable(jsonContent)
+    if table.DeSanitise then
+        self.Universe = table.DeSanitise(universe)
+    else
+        self.Universe = universe
+    end
 
-    local universe = util.JSONToTable(file.Read("star-wars-universe/server/data/universe.lua", "LUA") or "{}")
+    -- 4. [NOUVEAU] Indexation pour la Console de Navigation
+    SWU.MapData = {} 
+    
+    for gridKey, sectorList in pairs(self.Universe) do
+        for _, obj in ipairs(sectorList) do
+            if obj.type == "planet" or obj.type == "moon" then
+                SWU.MapData[obj.name] = {
+                    id = obj.id,
+                    name = obj.name,
+                    pos = Vector(tonumber(obj.pos.x), tonumber(obj.pos.y), tonumber(obj.pos.z or 0)),
+                    terrain = obj.terrain,
+                    weather = obj.weather,
+                    grid = gridKey
+                }
+            end
+        end
+    end
 
-    self.Universe = table.DeSanitise(universe)
+    print("[SWU] Univers chargé : " .. table.Count(SWU.MapData) .. " destinations indexées pour la navigation.")
 end
 
 function SWU:SpawnControls()
